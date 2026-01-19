@@ -1,0 +1,20 @@
+{
+    "AttachedPolicies": [
+        {
+            "PolicyName": "CloudWatchAgentServerPolicy",
+            "PolicyArn": "arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy"
+        },
+        {
+            "PolicyName": "AmazonSSMManagedInstanceCore",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore"
+        },
+        {
+            "PolicyName": "AmazonEC2FullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonEC2FullAccess"
+        },
+        {
+            "PolicyName": "CloudWatchFullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/CloudWatchFullAccess"
+        }
+    ]
+}
